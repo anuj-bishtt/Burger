@@ -1,0 +1,397 @@
+@font-face {
+    font-family: 'Shaimus';
+    src: url(../fonts/Shaimus.otf);
+    src: url(../fonts/Shaimus.ttf);
+}
+
+/* body {
+    margin-left: -0.5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+} */
+
+header {
+    margin-bottom: 30px;
+}
+
+.nav-menu,
+.burger-list,
+.combos,
+.gift-card,
+.burger-of-the-month,
+.services-list {
+    font-family: 'Shaimus';
+}
+
+.company-logo img {
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.nav-menu li {
+    font-family: 'Shaimus';
+    padding-left: 25px;
+    display: inline;
+}
+
+.nav-menu {
+    margin-top: -50px;
+    margin-left: 720px;
+}
+
+.nav-menu a {
+    color: #000;
+    font-weight: 600;
+}
+.burger-list .col-sm-4{
+    text-align: center;
+    background-color: #a5131e;
+    width: 100vw !important;
+}
+.ham {
+    color: #fff;
+    background-image: url(../images/bg3.jpg);
+    height: 700px;
+    width: 508px;
+    text-align: center;
+}
+
+.cheese {
+    color: #fff;
+    background-color: #a5131e;
+    height: 700px;
+    width: 515px;
+    text-align: center;
+    /* margin-top: -700px;
+    margin-left: 506px; */
+}
+
+.classic {
+    color: #fff;
+    background-image: url(../images/bg3.jpg) !important;
+    height: 700px;
+    width: 500px;
+    text-align: center;
+    /* margin-top: -700px;
+    margin-left: 1020px; */
+}
+
+
+.burger-list img {
+    /* height: 400px;
+    width: 450px; */
+    margin-top: 20px;
+    width: 100%;
+    height: 60%;
+}
+
+.burger-list ul {
+    display: inline;
+}
+
+.burger-list p {
+    margin-top: 20px;
+}
+
+.burger-list h3 {
+    margin-top: 50px;
+    color: #e8ae26;
+}
+
+.combos {
+    /* margin-left: 60px; */
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+.combos h3 {
+    color: #fff;
+    text-align: center;
+    /* margin-top: -170px;
+    margin-left: 50px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sandwiches img {
+    cursor: pointer;
+    /* width: 400px;
+    height: 250px; */
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+
+.specaility img {
+    cursor: pointer;
+    /* margin-left: 110px;
+    width: 400px;
+    height: 250px; */
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+.specaility h3 {
+    text-align: center;
+    /* margin-left: 250px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shakes img {
+    cursor: pointer;
+    /* margin-left: 210px;
+    width: 400px;
+    height: 250px; */
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+.shakes h3 {
+    /* margin-left: 360px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gift-card {
+    background-color: #030303;
+    background-image: url(../images/3073.1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: right;
+    color: #fff;
+    height: 550px;
+    padding-left: 100px;
+}
+
+.gift-card h3 {
+    padding-top: 150px;
+    font-size: 40px;
+}
+
+.mob-number {
+    color: #a5131e;
+    margin-top: -206px;
+    margin-left: 260px;
+}
+
+.gift-card h4 {
+    font-size: 30px;
+}
+
+.gift {
+    background-color: #a5131e;
+    width: 530px;
+    font-size: 50px;
+    margin-left: -100px;
+    padding: 10px 0px 12px 95px;
+
+}
+
+.gift-card p {
+    font-size: x-large;
+    padding-bottom: 80px;
+}
+
+.gift-card img {
+    margin-top: -390px;
+    margin-left: 779px;
+}
+
+.heart {
+    color: #a6151e;
+    border: 17px solid #fff2f3;
+    background-color: #fff2f3;
+    border-radius: 50px;
+    font-size: 30px;
+    margin: 100px;
+}
+
+.insta-posts h1 {
+    font-family: 'Shaimus';
+    margin-top: -40px;
+    margin-left: 100px;
+}
+
+.nav-icons {
+    cursor: pointer;
+    margin-top: -80px;
+    font-size: 30px;
+    margin-left: 1200px;
+    margin-bottom: 40px;
+}
+
+.less {
+    color: #f0f0f0;
+    padding-right: 20px;
+}
+
+.insta-posts img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.post img {
+    margin-top: 25px;
+}
+
+.post {
+    border-radius: 10px;
+    height: 230px;
+    border: 2px solid #e3e1e1;
+    margin-right: 10px;
+}
+
+.comments {
+    padding-right: 5px;
+}
+
+.post p {
+    color: rgb(48, 46, 46);
+}
+
+.user-name {
+    font-weight: 600;
+}
+
+.nav-bars {
+    cursor: pointer;
+    margin: 20px 0px 30px 190px;
+}
+
+.not-active {
+    color: #e3e1e1;
+}
+
+.burger-of-the-month {
+    background-image: url(../images/award-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1515px;
+    height: 700px;
+    background-position: center;
+    margin-left: -0px;
+}
+
+.burger-of-the-month {
+    color: #fff;
+}
+
+.burger-of-the-month img{
+    height: 120px;
+    width: 100px;
+    margin-left: 900px;
+    margin-top: 230px;
+    margin-bottom: -140px;
+}
+
+.name {
+    text-align: right;
+    margin-right: 50px;
+    margin-left: 870px;
+    height: 150px;
+    width: 650px;
+}
+
+.name h2 {
+    background-image: url(../images/Rectangle\ 3\ copy.jpg);
+    padding: 30px 50px 10px 0px;
+}
+
+.name h1 {
+    margin-top: -20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    font-size: 65px;
+    background-image: url(../images/Rectangle\ 3\ copy\ 2.jpg);
+}
+
+.recipe {
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.recipe h1 {
+    font-size: 50px;
+}
+
+.recipe p {
+    font-size: 25px;
+}
+
+.services img {
+    width: 400px;
+    height: 250px;
+}
+
+.services-list {
+    margin-left: 140px;
+    margin-top: 80px;
+    margin-bottom: 180px;
+}
+
+.services {
+    margin-right: 40px;
+}
+
+.services h3 {
+    color: #fff;
+    margin: -150px 0px 0px 120px;
+}
+
+.menu h3 {
+    margin-left: 110px;
+}
+
+.order {
+    margin-top: -133px;
+    margin-left: 840px;
+}
+
+footer {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+}
+
+.foot {
+    padding-top: 50px;
+    color: #fff;
+}
+
+.foot a {
+    color: #fff;
+}
+
+.foot img {
+    height: 100px;
+    width: 100px;
+}
+
+.footer-links {
+    margin-left: -39px;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+    font-size: small;
+    padding: 40px 0px 40px 0px;
+}
